@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&family=Honk&display=swap');
+
+
+.profile-img {
+    border-radius: 50%;
+    height: 200px;
+  width: 200px;
+}
+h1 {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    margin-top: 30px;
+}
+[class = "lead mb-4"] {
+    font-weight: 400;
+    font-size: 40px;
+    color: #00A86B;
+    font-family: "Caveat";
+}
+.px-4 {
+    background-color: #EED5AE;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.skills-container > h2 {
+    text-align: center;
+    font-family: "Honk";
+    font-size: 80px;
+    color: #C69491;
+    padding-top: 80px;
+}
+.skills-container {
+    background-color: #8AA494;
+    height: 100vh;
+}
+.row {
+    height: 100vh;
+    width: 100%;
+}
+.col-md-3 > h3 {
+    color: #6667AB;
+    font-size: 20px;
+    font-family: "Bungee Spice";
+}
+.col-md-3 {
+    margin-top: 130px;
+}
+.about-me {
+  font-family: "Poppins", sans-serif;
+  background-color: #BCD9B8;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  flex: 1;
+}
+.box-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.box {
+  width: 65%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #8DA399;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 150px;
+  margin-top: 25px;
+}
+.first {
+    float: left;
+}
+.second {
+    float: right;
+}
+.about-me-h2 { 
+    margin-top: 28px;
+    text-align: center;
+}
+.box > p, h3 {
+    color: #D3F2E4;
+}
+.container-footer {
+    background-color: #F9EA99;
+}
+
+@media (max-width: 1180px) and (min-width: 600px) {
+    .box {
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+      flex-shrink: 1;
+    }
+  
+    .box-image {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+    [class="col-md-3 col-sm-12"] {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+      padding-left: 250px;
+    }
+    [class="col-md-3 col-sm-12"] > img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+    .skills-container {
+        height: 350vh;
+    }
+    
+
+  }
+  @media(max-width:600px) {
+    .gif {
+        visibility: hidden;
+        width: 0px;
+    }
+    .box {
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        flex-shrink: 1;
+      }
+    
+      .box-image {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+      [class="col-md-3 col-sm-12"] {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+      [class="col-md-3 col-sm-12"] > img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+      .skills-container {
+          height: 350vh;
+      }
+    
+  }
